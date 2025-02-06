@@ -5,7 +5,7 @@ This C++ library makes it easy to add colors and styles to text in the terminal.
 ## usage
 To use this library, put `colorizer.h` in your project and call functions from the `style`, `fg` and `bg` namespaces to modify text.
 
-### code Example
+### code example
 
 ```cpp
 #include <iostream>
@@ -18,7 +18,7 @@ int main() {
     return 0;
 }
 ```
-### output:
+### output
 
 ![example](assets/example.png)
 
@@ -29,7 +29,7 @@ int main() {
 Used as `style`
 - `bold`: **bold**
 - `dim`: applies a subtle dimming effect
-- `underline`: <u>underline</u>
+- `underline`: <ins>underline</ins>
 - `reverse`: inverts foreground and background colors
 - `strike` ~~strikethrough~~
 
