@@ -20,7 +20,7 @@ int main() {
 ```
 ### output:
 
-![[assets/example.png]]
+![example](assets/example.png)
 
 ## namespace Specification
 
