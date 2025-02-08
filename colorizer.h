@@ -1,54 +1,5 @@
 #pragma once
 namespace style {
-    std::string bold(const std::string text);
-    std::string dim(const std::string text);
-    std::string underline(const std::string text);
-    std::string reverse(const std::string text);
-    std::string strike(const std::string text);
-}
-namespace fg {
-    std::string normal(const std::string text);
-    std::string black(const std::string text);
-    std::string red(const std::string text);
-    std::string green(const std::string text);
-    std::string yellow(const std::string text);
-    std::string blue(const std::string text);
-    std::string magenta(const std::string text);
-    std::string cyan(const std::string text);
-    std::string light_gray(const std::string text);
-
-    std::string dark_gray(const std::string text);
-    std::string light_red(const std::string text);
-    std::string light_green(const std::string text);
-    std::string light_yellow(const std::string text);
-    std::string light_blue(const std::string text);
-    std::string light_magenta(const std::string text);
-    std::string light_cyan(const std::string text);
-    std::string white(const std::string text);
-}
-namespace bg {
-    std::string normal(const std::string text);
-    std::string black(const std::string text);
-    std::string red(const std::string text);
-    std::string green(const std::string text);
-    std::string yellow(const std::string text);
-    std::string blue(const std::string text);
-    std::string magenta(const std::string text);
-    std::string cyan(const std::string text);
-    std::string light_gray(const std::string text);
-
-    std::string dark_gray(const std::string text);
-    std::string light_red(const std::string text);
-    std::string light_green(const std::string text);
-    std::string light_yellow(const std::string text);
-    std::string light_blue(const std::string text);
-    std::string light_magenta(const std::string text);
-    std::string light_cyan(const std::string text);
-    std::string white(const std::string text);
-}
-
-#ifdef COLORIZER
-namespace style {
     const std::string RESET = "\e[0m";
     std::string bold(const std::string text){ return "\e[1m"+text+RESET; }
     std::string dim(const std::string text){ return "\e[2m"+text+RESET; }
@@ -98,4 +49,3 @@ namespace bg {
     std::string light_cyan(const std::string text){ return "\e[106m"+text+RESET; }
     std::string white(const std::string text){ return "\e[107m"+text+RESET; }
 }
-#endif
