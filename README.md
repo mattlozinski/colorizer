@@ -9,6 +9,7 @@ To use this library, put `colorizer.h` in your project and call functions from t
 
 ```cpp
 #include <iostream>
+#define COLORIZER
 #include "colorizer.h"
 
 int main() {

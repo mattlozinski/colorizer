@@ -1,4 +1,5 @@
 #include <iostream>
+#define COLORIZER
 #include "../colorizer.h"
 
 int main() {
